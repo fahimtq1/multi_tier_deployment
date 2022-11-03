@@ -1,2 +1,13 @@
-# multi_tier_deployment
-This project details the deployment of a multi-tier application locally; both manually and automatically. 
+# Multi-Tier Application Deployment
+
+## Project brief
+
+## Application architecture
+
+### Services
+
+## Tools
+
+## Manual setup
+
+## Automatic setup
