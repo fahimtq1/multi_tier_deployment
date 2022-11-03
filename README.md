@@ -14,7 +14,7 @@ Finally, the entire setup will be automated.
 
 ## Application architecture
 
-
+![vprofile-project-architecture](https://user-images.githubusercontent.com/99980305/199768482-3bb654c1-8a40-4352-8e86-49b4ae50875f.png)
 
 ### Services
 
