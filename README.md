@@ -4,6 +4,11 @@
 
 This application was inspired by devopshydclub repository found [here](https://github.com/devopshydclub/vprofile-project)
 
+
+You can see the most used languages, in this project, below:
+
+![Your Repository's Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=fahimtq1&theme=blue-green)
+
 ## Project brief
 
 The scenario is of a DevOps engineer who has been given a multi-tier application stack and has been tasked with deploying the application on a local machine. 
