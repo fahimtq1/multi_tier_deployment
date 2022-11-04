@@ -299,6 +299,8 @@ This stage is the easiest:
 
 These BASH scripts contain all the steps implemented in the manual setup, in a single shell script. The Vagrant file then runs these respective shell scripts, as can be seen below:
 
+![vprofile-vagrant-auto](https://user-images.githubusercontent.com/99980305/199961592-8ff76b18-f061-4c3a-94db-b7cb03ae0632.png)
+
 ## Conclusion
 
 The automation of the entire virtualisation process is the end goal of the project, because it solves the problems of time consumption and setup complexity.
