@@ -48,7 +48,7 @@ Finally, the entire setup will be automated.
 
 The Vagrantfile automates the virtualisation process and the configuration of each Virtual Machine. In this project, five Virtual Machines will be created, and these are outlined in the Vagrantfile:
 
-![vprofile-vagrantfile](https://user-images.githubusercontent.com/99980305/199947303-e55a2168-97ec-462c-be7f-a4f20eba67e5.png)
+![vprofile-vagrantfile](https://user-images.githubusercontent.com/99980305/199950428-74b80312-af86-4b62-a9c6-1d97a8a121b3.png)
 
 ### MySQL- db01
 
