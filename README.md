@@ -264,17 +264,7 @@ Create nginx.conf file with the below content:
 - `vi /etc/nginx/sites-available/vproapp`- custom NGINX reverse proxy file
     - Paste the below content into the file to allow the frontend to listen on port 80 and route the request to the app01 server on port 8080
 
-```
-upstream vproapp { 
- server app01:8080;
-}
-server {
-  listen 80;
-location / {
-proxy_pass http://vproapp;
-}
-}
-```
+![vprofile-nginxconf](https://user-images.githubusercontent.com/99980305/199947649-7ca173eb-26c3-476e-8fa8-a04a17c1d694.png)
 
 Remove default files:
 
