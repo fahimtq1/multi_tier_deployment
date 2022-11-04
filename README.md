@@ -33,6 +33,14 @@ Finally, the entire setup will be automated.
 - **Memcached**- database caching service
 - **MySQL**- SQL database
 
+### Application architecture explained
+
+These the basic steps of the application workflow:
+
+- Users send requests that are received by the NGINX service
+- NGINX is a load-balancing service that receives that allows the frontend to listen on port 80 and then routes the request to the app01 server on port 8080
+- Tomcat receives the request on port 8080 and communicates with the backend services, on their respective ports, to receive the application content, which can then be routed to the frontend so the users can view it
+
 ## Tools
 
 - **Git Bash**
@@ -279,5 +287,20 @@ Remove default files:
 - `ifconfig `- to find the IP address needed
 - Type the IP address into your browser and see your application running!
 
-
 ## Automatic setup
+
+This stage is the easiest:
+
+- Navigate to the Automated_provisioning folder
+    - This folder has all the provisioning shell scripts for each VM and an updated Vagrantfile
+- `vagrant up`- after a few moments, the application will be ready!
+
+### Shell scripts and Vagrantfile
+
+These BASH scripts contain all the steps implemented in the manual setup, in a single shell script. The Vagrant file then runs these respective shell scripts, as can be seen below:
+
+## Conclusion
+
+The automation of the entire virtualisation process is the end goal of the project, because it solves the problems of time consumption and setup complexity.
+
+Using the tools in this project and implementing concepts, like IaC, allowed a lot of time to be saved, whilst still deploying a multi-tier application.
