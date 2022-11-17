@@ -1,9 +1,8 @@
-# Multi-Tier Application Deployment
+# Multi-Tier Application Deployment on Local Machine
 
 ![v-profile banner](https://user-images.githubusercontent.com/99980305/199944530-e15176c5-9c17-4806-bc45-2b0c79e74d47.png)
 
 This application was inspired by devopshydclub repository found [here](https://github.com/devopshydclub/vprofile-project)
-
 
 You can see the most used languages, in this project, below:
 
