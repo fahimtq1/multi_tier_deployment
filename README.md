@@ -37,8 +37,8 @@ Finally, the entire setup will be automated.
 These are the basic steps of the application workflow:
 
 - Users send requests that are received by the NGINX service
-- NGINX is a load-balancing service that receives that allows the frontend to listen on port 80 and then routes the request to the app01 server on port 8080
-- Tomcat receives the request on port 8080 and communicates with the backend services, on their respective ports, to receive the application content, which can then be routed to the frontend so the users can view it
+- NGINX is a load-balancing service that receives that allows the frontend to listen on port 80 and then routes the request to the application (Tomcat) server on port 8080
+- The Tomcat server receives the request on port 8080 and communicates with the backend services, on their respective ports, to receive the application content, which can then be routed to the frontend so the users can view it
 
 ## Tools
 
