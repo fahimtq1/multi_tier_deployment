@@ -34,7 +34,7 @@ Finally, the entire setup will be automated.
 
 ### Application architecture explained
 
-These the basic steps of the application workflow:
+These are the basic steps of the application workflow:
 
 - Users send requests that are received by the NGINX service
 - NGINX is a load-balancing service that receives that allows the frontend to listen on port 80 and then routes the request to the app01 server on port 8080
